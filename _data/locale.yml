@@ -1,0 +1,66 @@
+# @start locale config
+## => English
+########################
+br: &PT
+  SUBSCRIBE               : "Inscreva-se"
+  READMORE                : "Leia mais"
+  SEARCH                  : "Busca"
+  CANCEL                  : "Cancelar"
+  VIEWS                   : "Vizualizações"
+  LAST_UPDATED            : "Última atualização"
+  PREVIOUS                : "ANTERIOR"
+  NEXT                    : "PRÓXIMO"
+  ARTICLE_DATE_FORMAT     : "%d %b, %Y"
+  ARTICLE_LIST_DATE_FORMAT: "%d %b"
+  STATISTICS              : "[POST_COUNT] artigos, [PAGE_COUNT] páginas."
+  LICENSE_ANNOUNCE        : "Este trabalho está licenciado sob a licença [LICENSE]."
+  POST_ON_GITHUB          : "Edit on Github"
+  FOLLOW_ME               : "Me siga no [NAME]!"
+  FOLLOW_US               : "Siga-nos no [NAME]!"
+  EMAIL_ME                : "Me envie um Email."
+  EMAIL_US                : "Nos envie um Email."
+  COPYRIGHT_DATES         : "2020"
+
+en: &EN
+  SUBSCRIBE               : "Subscribe"
+  READMORE                : "Read more"
+  SEARCH                  : "Search"
+  CANCEL                  : "Cancel"
+  VIEWS                   : "views"
+  LAST_UPDATED            : "Last updated"
+  PREVIOUS                : "PREVIOUS"
+  NEXT                    : "NEXT"
+  ARTICLE_DATE_FORMAT     : "%b %d, %Y"
+  ARTICLE_LIST_DATE_FORMAT: "%b %d"
+  STATISTICS              : "[POST_COUNT] post articles, [PAGE_COUNT] pages."
+  LICENSE_ANNOUNCE        : "This work is licensed under a [LICENSE] license."
+  POST_ON_GITHUB          : "Edit on Github"
+  FOLLOW_ME               : "Follow me on [NAME]!"
+  FOLLOW_US               : "Follow us on [NAME]!"
+  EMAIL_ME                : "Send me an Email."
+  EMAIL_US                : "Send us an Email."
+  COPYRIGHT_DATES         : "2020"
+
+es: &ES
+  SUBSCRIBE               : "Subscribir"
+  READMORE                : "Lee mas"
+  SEARCH                  : "Buscar"
+  CANCEL                  : "Cancelar"
+  VIEWS                   : "Visualizaciones"
+  LAST_UPDATED            : "Última atualização"
+  PREVIOUS                : "ANTERIOR"
+  NEXT                    : "SIGUIENTE"
+  ARTICLE_DATE_FORMAT     : "%b %d, %Y"
+  ARTICLE_LIST_DATE_FORMAT: "%b %d"
+  STATISTICS              : "[POST_COUNT] artículos, [PAGE_COUNT] páginas."
+  LICENSE_ANNOUNCE        : "Este trabajo tiene una licencia de [LICENSE]."
+  POST_ON_GITHUB          : "Edit on Github"
+  FOLLOW_ME               : "Seguime en [NAME]!"
+  FOLLOW_US               : "Síguenos en [NAME]!"
+  EMAIL_ME                : "Envíame un Email."
+  EMAIL_US                : "Envianos an Email."
+  COPYRIGHT_DATES         : "2020"
+
+
+
+# @end locale config
