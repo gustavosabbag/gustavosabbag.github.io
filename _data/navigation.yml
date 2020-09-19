@@ -1,9 +1,9 @@
 titles:
     br:
       - title: Artigos
-        url: /br/artigos.html
+        url: artigos.html
       - title: Minha Pesquisa
-        url: /br/pesquisa.html
+        url: pesquisa.html
       - title: Currículo
         url: /br/curriculo.html
       - title: Sobre mim
