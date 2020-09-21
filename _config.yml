@@ -69,7 +69,7 @@ repository_tree: master
 # tenho que procurar todos os documentos com paths[page.lang] e retirar o [page.lang]
 paths:
   br:
-    root    : /br/ # title link url, "/" (default)
+    root    : / # title link url, "/" (default)
     home    : /br/ # home layout url, "/" (default)
     archive : /br/analises.html # "/archive.html" (default)
     rss     : /br/ # "/feed.xml" (default)
