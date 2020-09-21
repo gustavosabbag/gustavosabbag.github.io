@@ -1,0 +1,51 @@
+---
+layout: page
+title: Articles
+mode: immersive
+lang: en
+idy: artigos
+articles:
+  data_source: /_posts/
+  show_excerpt: true
+  show_readmore: true
+header:
+  theme: dark
+article_header:
+  theme: dark
+  type: cover
+  image:
+    src: /imageheader/partbook4en.jpeg
+
+---
+
+<div style='text-align:justify'>
+
+In this page you will find analysis and basic articles on politics.
+The <a href="http://localhost:4000/br/analises.html" title="Click to see all the articles on this section">Analyses</a>
+section contains assessments of the conjuncture and relations between politics and other issues, covering topics such
+ as <i> Entertainment and Politics </i> and <i> Conjunctural Analysis</i>, which can be filtered by the <i> tags </i>
+on the Analyses page. The <a href="http://localhost:4000/br/Entendendo Política/" title="Click to see all the articles on this section">Understanding Politics</a>
+section offer articles about basilar notions that you must know to have a better understanding of politics.
+Click on the topics title to see all the articles in the category.
+
+<br>
+<br>
+<h2><a href="http://localhost:4000/en/analysis.html" style="color:black">
+  Analysis</a></h2>
+
+  {% for post in site.categories.analysis limit: 4 %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a>
+  {{ post.excerpt }}
+  </li>
+  {% endfor %}
+
+<h2>
+  <a href="http://localhost:4000/en/understanding/"
+     title="Basic notions of politics" style="color:black"
+     >Understanding Politics</a></h2>
+
+    {% for post in site.categories.['Understanding Politics'] limit: 4 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a>
+    {{ post.excerpt }}
+    </li>
+    {% endfor %}

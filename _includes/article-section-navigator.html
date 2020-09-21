@@ -1,0 +1,75 @@
+<hr>
+
+{%- if page.sidebar.nav -%}
+  {%- assign _sidebar_nav = site.data.navigation[page.sidebar.nav] -%}
+  {%- if _sidebar_nav -%}
+    {%- assign _find_cur = false -%}
+    {%- assign _find_next = false -%}
+
+    {%- for _item in _sidebar_nav -%}
+      {%- if _find_next -%} {%- break -%} {%- endif -%}
+      {%- if _item.children -%}
+
+        {%- for _child in _item.children -%}
+          {%- include snippets/get-nav-url.html path=_child.url -%}
+          {%- assign _nav_url = __return -%}
+          {%- include snippets/get-nav-url.html path=page.url -%}
+          {%- assign _page_url = __return -%}
+
+          {%- if _nav_url == _page_url -%}
+            {%- assign _find_cur = true -%}
+          {%- elsif _find_cur and _find_next != true -%}
+            {%- assign _find_next = true -%}
+            {%- assign _next = _child -%}
+            {%- break -%}
+          {%- else -%}
+            {%- assign _previous = _child -%}
+          {%- endif -%}
+        {%- endfor -%}
+
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+
+{%- else -%}
+<div class="relatedPosts">
+  {%- if page.lang == "br" -%}
+    <h4>Leia também</h4>
+  {%- elsif page.lang == "en" -%}
+    <h4>Also read</h4>
+  {%- else -%}
+    <h4>Leer tambien</h4>
+  {%- endif -%}
+
+    {% assign maxRelated = 4 %}
+    {% assign minCommonTags =  1 %}
+    {% assign maxRelatedCounter = 0 %}
+
+    {% for post in site.posts %}
+
+      {% assign sameTagCount = 0 %}
+      {% assign commonTags = '' %}
+
+      {% for category in post.lang %}
+        {% if post.url != page.url %}
+          {% if page.lang contains category %}
+            {% assign sameTagCount = sameTagCount | plus: 1 %}
+            {% capture tagmarkup %} <span class="label label-default">{{ category }}</span> {% endcapture %}
+            {% assign commonTags = commonTags | append: tagmarkup %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      {% if sameTagCount >= minCommonTags %}
+        <div>
+        <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+        </div>
+        {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+        {% if maxRelatedCounter >= maxRelated %}
+          {% break %}
+        {% endif %}
+      {% endif %}
+
+    {% endfor %}
+{%- endif -%}
+</div>

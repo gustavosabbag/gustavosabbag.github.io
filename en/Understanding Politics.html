@@ -1,0 +1,26 @@
+---
+layout: page
+title: Understanding Politics
+permalink: /en/Understanding Politics/
+
+mode: immersive
+lang: en
+idy: entendendo
+articles:
+  data_source: /_posts/
+  show_excerpt: true
+  show_readmore: true
+header:
+  theme: dark
+article_header:
+  theme: dark
+  type: cover
+  image:
+    src: /imageheader/partbook4es.jpeg
+
+---
+
+
+    {% for post in site.categories.['Understanding Politics'] %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}

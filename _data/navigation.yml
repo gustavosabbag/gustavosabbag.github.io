@@ -1,0 +1,36 @@
+titles:
+    br:
+      - title: Artigos
+        url: /br/artigos.html
+      - title: Minha Pesquisa
+        url: /br/pesquisa.html
+      - title: Currículo
+        url: /br/curriculo.html
+      - title: Sobre mim
+        url: /br/sobremim.html
+      - title: Contato
+        url: /br/contato.html
+
+    en:
+      - title: Articles
+        url: /en/articles.html
+      - title: My Research
+        url: /en/research.html
+      - title: CV
+        url: /en/resume.html
+      - title: About me
+        url: /en/aboutme.html
+      - title: Contact
+        url: /en/contact.html
+
+    es:
+      - title: Artículos
+        url: /es/articulos.html
+      - title: Mi Investigación
+        url: /es/investigacion.html
+      - title: Currículum
+        url: /es/curriculum.html
+      - title: Sobre mi
+        url: /es/sobremi.html
+      - title: Contacto
+        url: /es/contacto.html
