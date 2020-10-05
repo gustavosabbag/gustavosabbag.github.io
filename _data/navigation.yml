@@ -6,8 +6,8 @@ titles:
         url: /br/pesquisa.html
       - title: Currículo
         url: /br/curriculo.html
-      - title: Sobre mim
-        url: /br/sobremim.html
+      #- title: Sobre mim
+        #url: /br/sobremim.html
       - title: Contato
         url: /br/contato.html
 
@@ -18,8 +18,8 @@ titles:
         url: /en/research.html
       - title: CV
         url: /en/resume.html
-      - title: About me
-        url: /en/aboutme.html
+    #  - title: About me
+    #    url: /en/aboutme.html
       - title: Contact
         url: /en/contact.html
 
@@ -30,7 +30,7 @@ titles:
         url: /es/investigacion.html
       - title: Currículum
         url: /es/curriculum.html
-      - title: Sobre mi
-        url: /es/sobremi.html
+    #  - title: Sobre mi
+    #    url: /es/sobremi.html
       - title: Contacto
         url: /es/contacto.html
