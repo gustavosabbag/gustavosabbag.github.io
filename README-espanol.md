@@ -2,7 +2,7 @@
 
 # Mi sitio web personal
 
-Estos son los archivos que configuran mi sitio web. Puedes visitalo
+Estos son los archivos que configuran mi sitio web. Puedes visitarlo
 [aquí](https://gustavosabbag.github.io/es).
 
 ## Templates y Logos
