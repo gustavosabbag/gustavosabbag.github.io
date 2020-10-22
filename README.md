@@ -12,5 +12,3 @@ I've created it using [Jerkyll](https://jekyllrb.com/), using [TeXt Theme](https
 ## Licence
 
 TeXt Theme is [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
-
-**[English](https://github.com/gustavosabbag/gustavosabbag.github.io/README-english)** | **[Español](https://github.com/gustavosabbag/gustavosabbag.github.io/README-espanol)**
