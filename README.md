@@ -1,15 +1,16 @@
+**[Espanol](https://github.com/gustavosabbag/gustavosabbag.github.io/blob/master/README-espanol)** | **[Português](https://github.com/gustavosabbag/blob/master/gustavosabbag.github.io/README-portugues)**
+
+# My personal website
+
+These are the files that compose my website. You can access it
+[here](https://gustavosabbag.github.io/en).
+
+## Templates and Logos
+
+I've created it using [Jerkyll](https://jekyllrb.com/), using [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme) as template, and logos by [surang](https://www.flaticon.com/br/autores/surang).
+
+## Licence
+
+TeXt Theme is [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
+
 **[English](https://github.com/gustavosabbag/gustavosabbag.github.io/README-english)** | **[Español](https://github.com/gustavosabbag/gustavosabbag.github.io/README-espanol)**
-
-# Meu site pessoal
-
-Estes são os arquivos que configuram o meu site. Você pode visitá-lo
-[aqui](https://gustavosabbag.github.io).
-
-
-## Templates e Logos
-
-Criei o site usando o [Jerkyll](https://jekyllrb.com/), usei o TeXt Theme [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme) como template, e a arte dos logos de [surang](https://www.flaticon.com/br/autores/surang).
-
-## Licença
-
-TeXt Theme possui licença [MIT](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
