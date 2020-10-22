@@ -1,4 +1,4 @@
-**[Espanol](https://github.com/gustavosabbag/gustavosabbag.github.io/blob/master/README-espanol)** | **[Português](https://github.com/gustavosabbag/blob/master/gustavosabbag.github.io/README-portugues)**
+**[Espanol](https://github.com/gustavosabbag.github.io/blob/master/README-espanol.md)** | **[Português](https://github.com/gustavosabbag/blob/master/gustavosabbag.github.io/README-portugues.md)**
 
 # My personal website
 
