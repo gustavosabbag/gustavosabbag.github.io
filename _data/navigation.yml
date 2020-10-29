@@ -2,7 +2,7 @@ titles:
     br:
       - title: Artigos
         url: /br/artigos.html
-      - title: Minha Pesquisa
+      - title: Pesquisa
         url: /br/pesquisa.html
       - title: Currículo
         url: /br/curriculo.html
@@ -14,7 +14,7 @@ titles:
     en:
       - title: Articles
         url: /en/articles.html
-      - title: My Research
+      - title: Research
         url: /en/research.html
       - title: CV
         url: /en/resume.html
@@ -26,9 +26,9 @@ titles:
     es:
       - title: Artículos
         url: /es/articulos.html
-      - title: Mi Investigación
+      - title: Investigación
         url: /es/investigacion.html
-      - title: Currículum
+      - title: CV
         url: /es/curriculum.html
     #  - title: Sobre mi
     #    url: /es/sobremi.html
