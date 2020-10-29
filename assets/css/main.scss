@@ -101,7 +101,7 @@
 .circular--portrait {
   position: relative;
   width: 300px;
-  height: 200px;
+  height: 300px;
   overflow: hidden;
   border-radius: 50%;
   display: block;
@@ -111,6 +111,6 @@
 }
 
 .circular--portrait img {
-  width: 140%;
+  width: 100%;
   height: auto;
 }
