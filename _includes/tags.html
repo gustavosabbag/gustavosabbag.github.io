@@ -66,17 +66,17 @@
 -->
 {%- if page.lang == 'pt' -%}
 <li><button type="button" class="button button--pill tag-button tag-button-{{ _c_index }}" data-encode="{{ _tag[0] | strip | url_encode }}">
-    <span>{{ _tag[0] }}</span><div class="tag-button__count">{{ _tag[1].size }}</div>
+    <span>{{ _tag[0] }}</span><div class="tag-button__count">{{ _tag[1].size | where: 'lang', page.lang }}</div>
   </button>
 </li>
 {%- elsif page.lang == 'en' -%}
 <li><button type="button" class="button button--pill tag-button tag-button-{{ _c_index }}" data-encode="{{ _tag[0] | strip | url_encode }}">
-    <span>{{ _tag[0] }}</span><div class="tag-button__count">{{ _tag[1].size }}</div>
+    <span>{{ _tag[0] }}</span><div class="tag-button__count">{{ _tag[1].size | where: 'lang', page.lang }}</div>
   </button>
   </li>
 {%- else -%}
 <li><button type="button" class="button button--pill tag-button tag-button-{{ _c_index }}" data-encode="{{ _tag[0] | strip | url_encode }}">
-    <span>{{ _tag[0] }}</span><div class="tag-button__count">{{ _tag[1].size }}</div>
+    <span>{{ _tag[0] }}</span><div class="tag-button__count">{{ _tag[1].size | where: 'lang', page.lang }}</div>
   </button>
   </li>
 {%- endif -%}
