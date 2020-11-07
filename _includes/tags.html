@@ -59,7 +59,7 @@
         {%- assign _c_index = 4 -%}
       {%- endif -%}
       <li><button type="button" class="button button--pill tag-button tag-button-{{ _c_index }}" data-encode="{{ _tag[0] | strip | url_encode }}">
-          <span>{{  }}</span><div class="tag-button__count">{{ _tag[1].size }}</div>
+          <span>{{ _tag[0] }}</span><div class="tag-button__count">{{  }}</div>
         </button>
       </li>
     {%- endfor -%}
