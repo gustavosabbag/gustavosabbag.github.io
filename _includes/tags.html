@@ -37,7 +37,7 @@
         </button>
       </li>
     {%- endif -%}
-    {%- for _tag in _tags -%}
+    {%- for _tag in _tags | where: 'lang', page.lang -%}
       {%- assign _tag_cur_size = _tag[1].size -%}
       {%- assign _tag_min_1 = _tag_min_size -%}
       {%- assign _tag_max_1 = _tag_min_1 | plus: _tag_gap_size -%}
@@ -59,7 +59,7 @@
         {%- assign _c_index = 4 -%}
       {%- endif -%}
       <li><button type="button" class="button button--pill tag-button tag-button-{{ _c_index }}" data-encode="{{ _tag[0] | strip | url_encode }}">
-          <span>{{ _tag[0] }}</span><div class="tag-button__count">{{  }}</div>
+          <span>{{ _tag[0] }}</span><div class="tag-button__count">{{ _tag[1].size }}</div>
         </button>
       </li>
     {%- endfor -%}
