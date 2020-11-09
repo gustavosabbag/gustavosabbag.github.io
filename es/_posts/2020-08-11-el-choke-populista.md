@@ -11,7 +11,7 @@ header:
 article_header:
   type: cover
   image:
-    src: /imageheader/partbook4.jpg
+    src: /imageheader/choquepopulismo.jpg
 ---
 
 <div style='text-align:justify'>
