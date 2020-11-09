@@ -4,7 +4,7 @@ title: Choque de Populismo
 excerpt: Donaldinho do USÁ e BolsonaRenan: Porque o humorístico é uma aula sobre o solo fértil em que tende a germinar os maiores nomes da "representação alternativa" populista
 mode: immersive
 categories: analises
-idy: choque110820
+idy: quando3008
 tag: Entretenimento e política
 header:
   theme: dark
