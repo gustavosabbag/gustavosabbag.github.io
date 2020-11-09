@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Choque de Populismo
+title: The populist choque
 excerpt: Donaldinho do USÁ e BolsonaRenan: Porque o humorístico é uma aula sobre o solo fértil em que tende a germinar os maiores nomes da "representação alternativa" populista
 mode: immersive
 categories: analises
