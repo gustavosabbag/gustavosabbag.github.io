@@ -8,17 +8,14 @@ mode: immersive
 header:
   theme: dark
 article_header:
-  type: overlay
-  theme: dark
-  background_color: '#203028'
-  background_image:
-    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+  type: cover
+  image:
     src: /imageheader/choquepopulismo2.jpg
 ---
 
 <div style='text-align:justify'>
 
-<h3> Donaldinho do USÁ e BolsonaRenan: Porque o humorístico é uma aula sobre o sucesso dos maiores nomes da "representação alternativa" populista</h3>
+<h2> Donaldinho do USÁ e BolsonaRenan: Porque o humorístico é uma aula sobre o sucesso dos maiores nomes da "representação alternativa" populista</h2>
 
 <!--more-->
 
