@@ -21,6 +21,9 @@ Se você já assistiu ao programa humorístico "Choque de Cultura", com certeza 
 Colocar imagem do choque de cultura com as cabeças de Trump (Rogerinho),
 Maurílio (Marine Le Pen), o da hungria no julinho e bolsoasno no Representation
 
+<div>{%- include extensions/youtube.html id='TYMhEeagH9k&feature=youtu.be&list=WL&t=1890' -%}</div>
+
+
 Falar de como, pelo menos no Brasil, o programa caricaturizou fanáticos extremistas
 em que as coisas mais absurdas aos olhos do cidadão médio (e do sistema penal) se
 tornam banalidades, sem motivo de vergonha ou pudor. (colocar uns prints da internet)
@@ -38,5 +41,7 @@ que ele nunca mais vai dar ordem (autoritarismo de rogerinho)
 
 Também incluir entrevista em que Leandro (Julinho) fala das pessoas que se identificam
 com o personagel (https://www.youtube.com/watch?v=TYMhEeagH9k&list=WL&index=1, minuto 31:41)
+
+<iframe width="889" height="500" src="https://www.youtube.com/embed/TYMhEeagH9k?list=WL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
