@@ -17,7 +17,7 @@ article_header:
 
 <h6> Donaldinho do USÁ e BolsonaRenan: Porque Choque de Cultura é uma aula sobre o sucesso dos maiores nomes da "representação alternativa" populista </h6>
 
----
+<hr>
 <!--more-->
 
 Se você já assistiu[^1] ao programa humorístico "Choque de Cultura", com certeza se identificou com aquele quarteto[^longnote]. Talvez não por pensar exatamente como eles (espero), mas por conhecer alguém (ou mesmo ter algum parente, provavelmente um tio) que poderia estar dividindo aqueles bancos com os personagens e tendo uma conversa franca (e "falando com tranquilidade"...).
