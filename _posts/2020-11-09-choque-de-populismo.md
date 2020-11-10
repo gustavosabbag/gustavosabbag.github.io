@@ -15,11 +15,11 @@ article_header:
 
 <div style='text-align:justify'>
 
-<blockquote> Donaldinho do USÁ e BolsonaRenan: Porque Choque de Cultura é uma aula sobre o sucesso dos maiores nomes da "representação alternativa" populista </blockquote>
+<h5> Donaldinho do USÁ e BolsonaRenan: Porque Choque de Cultura é uma aula sobre o sucesso dos maiores nomes da "representação alternativa" populista </h5>
 
 <!--more-->
 
-Se você já assistiu ao programa humorístico "Choque de Cultura", com certeza se identificou com aquele quarteto. Talvez não por pensar exatamente como eles (espero), mas por conhecer alguém (ou mesmo ter algum parente, provavelmente um tio) que poderia estar dividindo aqueles bancos com os personagens e tendo uma conversa franca (e "falando com tranquilidade"...).
+Se você já assistiu[^1] ao programa humorístico "Choque de Cultura", com certeza se identificou com aquele quarteto[^longnote]. Talvez não por pensar exatamente como eles (espero), mas por conhecer alguém (ou mesmo ter algum parente, provavelmente um tio) que poderia estar dividindo aqueles bancos com os personagens e tendo uma conversa franca (e "falando com tranquilidade"...).
 Colocar imagem do choque de cultura com as cabeças de Trump (Rogerinho),
 Maurílio (Marine Le Pen), o da hungria no julinho e bolsoasno no Representation
 
@@ -41,4 +41,6 @@ que ele nunca mais vai dar ordem (autoritarismo de rogerinho)
 Também incluir entrevista em que Leandro (Julinho) fala das pessoas que se identificam
 com o personagel (https://www.youtube.com/watch?v=TYMhEeagH9k&list=WL&index=1, minuto 31:41)
 
+[^1]: affec
+[^longnote]: bff
 </div>
