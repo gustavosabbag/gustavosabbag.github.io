@@ -56,23 +56,14 @@ article_header:
     <div class="swiper__slide">6</div>
     <div class="swiper__slide">7</div>
   </div>
-  <!-- <div class="swiper__pagination"></div> -->
+  <div class="swiper__pagination"></div>
   <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
   <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
-  <!-- <div class="swiper-scrollbar"></div> -->
-</div>
+  <div class="swiper-scrollbar"></div>
 
+# Teste 2 light
 
-# Teste 2
-
-```css
-.swiper-demo {
-  height: 220px;
-}
-```
-
-```html
-<div class="swiper swiper-demo">
+<div class="swiper swiper--light my-3 swiper-demo swiper-demo--1">
   <div class="swiper__wrapper">
     <div class="swiper__slide">1</div>
     <div class="swiper__slide">2</div>
@@ -85,17 +76,22 @@ article_header:
   <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
   <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
 </div>
-```
 
-```js
-{%- raw -%}
-{%- include scripts/lib/swiper.js -%}
-var SOURCES = window.TEXT_VARIABLES.sources;
-window.Lazyload.js(SOURCES.jquery, function() {
-  $('.swiper-demo').swiper();
-});
-{% endraw %}
-```
+# Teste 3 dark
+
+<div class="swiper swiper--dark my-3 swiper-demo swiper-demo--dark swiper-demo--2">
+  <div class="swiper__wrapper">
+    <div class="swiper__slide">1</div>
+    <div class="swiper__slide">2</div>
+    <div class="swiper__slide">3</div>
+    <div class="swiper__slide">4</div>
+    <div class="swiper__slide">5</div>
+    <div class="swiper__slide">6</div>
+    <div class="swiper__slide">7</div>
+  </div>
+  <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
+  <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
+</div>
 
 <div style='text-align:justify'>
 
