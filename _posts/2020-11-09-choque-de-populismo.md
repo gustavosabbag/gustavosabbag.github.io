@@ -29,17 +29,43 @@ em que as coisas mais absurdas aos olhos do cidadão médio (e do sistema penal)
 tornam banalidades, sem motivo de vergonha ou pudor. (colocar uns prints da internet)
 de comentários reais sobre absurdos)
 
-<div>{%- include extensions/youtube.html id='TYMhEeagH9k&list=WL&t=1890' -%}</div>
 
 Pegar o caso do Bolsonaro para ilustrar as semelhanças:
-
-<div>{%- include extensions/youtube.html id='TYMhEeagH9k?list=WL&t=1890' -%}</div>
 
 
 Colocar trechos do choque de cultura X trechos de bolsonaro falando barbaridades
 
 Autoritarismo:
 
+<div class="swiper my-3 swiper-demo swiper-demo--0">
+  <div class="swiper__wrapper">
+    <div class="swiper__slide">1</div>
+    <div class="swiper__slide">2</div>
+    <div class="swiper__slide">3</div>
+    <div class="swiper__slide">4</div>
+    <div class="swiper__slide">5</div>
+    <div class="swiper__slide">6</div>
+    <div class="swiper__slide">7</div>
+  </div>
+  <!-- <div class="swiper__pagination"></div> -->
+  <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
+  <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
+  <!-- <div class="swiper-scrollbar"></div> -->
+</div>
+
+
+Choque de cultura, no episódio de Piratas do caribe em que rogerinho corta julinho quando
+este ia falar, ele fala pra deixar terminar de falar primeiro, e rogerinho fala em seguida
+que ele nunca mais vai dar ordem (autoritarismo de rogerinho)
+
+
+```css
+.swiper-demo {
+  height: 220px;
+}
+```
+
+```html
 <div class="swiper swiper-demo">
   <div class="swiper__wrapper">
     <div class="swiper__slide">1</div>
@@ -53,19 +79,17 @@ Autoritarismo:
   <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
   <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
 </div>
+```
+
+```js
+{%- raw -%}
 {%- include scripts/lib/swiper.js -%}
 var SOURCES = window.TEXT_VARIABLES.sources;
 window.Lazyload.js(SOURCES.jquery, function() {
   $('.swiper-demo').swiper();
 });
-
-
-Choque de cultura, no episódio de Piratas do caribe em que rogerinho corta julinho quando
-este ia falar, ele fala pra deixar terminar de falar primeiro, e rogerinho fala em seguida
-que ele nunca mais vai dar ordem (autoritarismo de rogerinho)
-
-<div>{%- include extensions/youtube.html id='TYMhEeagH9k&feature=youtu.be&list=WL&t=1890' -%}</div>
-
+{% endraw %}
+```
 
 
 Também incluir entrevista em que Leandro (Julinho) fala das pessoas que se identificam
