@@ -61,6 +61,14 @@ article_header:
   <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
   <div class="swiper-scrollbar"></div>
 
+  {%- raw -%}
+  {%- include scripts/lib/swiper.js -%}
+  var SOURCES = window.TEXT_VARIABLES.sources;
+  window.Lazyload.js(SOURCES.jquery, function() {
+    $('.swiper-demo').swiper();
+  });
+  {% endraw %}
+
 # Teste 2 light
 
 <div class="swiper swiper--light my-3 swiper-demo swiper-demo--1">
