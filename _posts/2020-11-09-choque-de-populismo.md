@@ -16,7 +16,6 @@ article_header:
 <div style='text-align:justify'>
 
 <blockquote> Donaldinho do USÁ e BolsonaRenan: Porque Choque de Cultura é uma aula sobre o sucesso dos maiores nomes da "representação alternativa" populista </blockquote>
-------
 
 <!--more-->
 
