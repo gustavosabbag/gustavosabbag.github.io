@@ -29,15 +29,17 @@ em que as coisas mais absurdas aos olhos do cidadão médio (e do sistema penal)
 tornam banalidades, sem motivo de vergonha ou pudor. (colocar uns prints da internet)
 de comentários reais sobre absurdos)
 
+<div>{%- include extensions/youtube.html id='TYMhEeagH9k&list=WL&t=1890' -%}</div>
+
 Pegar o caso do Bolsonaro para ilustrar as semelhanças:
+
+<div>{%- include extensions/youtube.html id='TYMhEeagH9k?list=WL&t=1890' -%}</div>
+
 
 Colocar trechos do choque de cultura X trechos de bolsonaro falando barbaridades
 
 Autoritarismo:
 
-.swiper-demo {
-  height: 220px;
-}
 <div class="swiper swiper-demo">
   <div class="swiper__wrapper">
     <div class="swiper__slide">1</div>
@@ -61,6 +63,10 @@ window.Lazyload.js(SOURCES.jquery, function() {
 Choque de cultura, no episódio de Piratas do caribe em que rogerinho corta julinho quando
 este ia falar, ele fala pra deixar terminar de falar primeiro, e rogerinho fala em seguida
 que ele nunca mais vai dar ordem (autoritarismo de rogerinho)
+
+<div>{%- include extensions/youtube.html id='TYMhEeagH9k&feature=youtu.be&list=WL&t=1890' -%}</div>
+
+
 
 Também incluir entrevista em que Leandro (Julinho) fala das pessoas que se identificam
 com o personagel (https://www.youtube.com/watch?v=TYMhEeagH9k&list=WL&index=1, minuto 31:41)
