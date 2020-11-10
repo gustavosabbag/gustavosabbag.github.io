@@ -259,3 +259,7 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-redirect-from
+
+## TEMA ADD P TENTAR RECONHECER ESTILOS
+
+theme: jekyll-text-theme
