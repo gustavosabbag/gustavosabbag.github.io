@@ -7,6 +7,7 @@
 {%- assign _tags = site.en.tags | sort -%}
 {%- else -%}
 {%- assign _tags = site.es.tags | sort -%}
+{%- endif -%}
 {%- for _tag in _tags -%}
   {%- assign _tag_cur_size = _tag[1].size -%}
   {%- if _tag_cur_size > _tag_max_size -%}
