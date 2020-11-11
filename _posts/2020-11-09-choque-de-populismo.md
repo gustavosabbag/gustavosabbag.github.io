@@ -12,7 +12,6 @@ article_header:
   image:
     src: /imageheader/choquepopulismo2.jpg
 ---
-<hr>
 <div style='text-align:justify'>
 
 <h4> Donaldinho do USÁ e BolsonaRenan: Porque Choque de Cultura é uma aula sobre o sucesso dos maiores nomes da "representação alternativa" populista </h4>
