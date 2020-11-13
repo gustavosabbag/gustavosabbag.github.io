@@ -42,6 +42,10 @@ fala de bolsonaro de fazer coco dia sim dia nao para melhorar meio ambiente
 
 "Boi Bombeiro"
 
+fala de bolsonaro sobre transar com animais na fazenda (falou tranquilamente)
+
+Comparar a mudança nos videos, na eleição de bolsoasno passou de uma mesa improvisada a uma sala chique depois de eleito, choque de cultura passou de um cenario improvisado com caixas a um cenario chique depois de eleito 
+
 Também incluir entrevista em que Leandro (Julinho) fala das pessoas que se identificam
 com o personagel (https://www.youtube.com/watch?v=TYMhEeagH9k&list=WL&index=1, minuto 31:41)
 
