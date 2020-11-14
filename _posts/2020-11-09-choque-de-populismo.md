@@ -19,6 +19,10 @@ article_header:
 
 <!--more-->
 
+Falar de repente da definição de populismo que leva em consideração o fato de ter aquela dimensão "low" em que em vez de ser elitista e instru'ído, é popularesco e informal. Colocar algo no sentido de:"uma das principais abordagens sobre o populisto, a socio-histórica de Ostguy, por exemplo, chama atenção para o jeito vulgar, ofensivo, etc.. (ver como ele coloca) que esses populistas podem ter, tendendo a se parecer com seu eleitorado."
+
+Mas tambem ressaltar que tambem há fatores contextuais que favorecerem esses atores políticos, nem todo eleitor é choque de cultura
+
 Se você já assistiu[^1] ao programa humorístico "Choque de Cultura", com certeza se identificou com aquele quarteto[^longnote]. Talvez não por pensar exatamente como eles (espero), mas por conhecer alguém (ou mesmo ter algum parente, provavelmente um tio) que poderia estar dividindo aqueles bancos com os personagens e tendo uma conversa franca (e "falando com tranquilidade"...).
 Colocar imagem do choque de cultura com as cabeças de Trump (Rogerinho),
 Maurílio (Marine Le Pen), o da hungria no julinho e bolsoasno no Representation
@@ -47,6 +51,10 @@ fala de bolsonaro sobre transar com animais na fazenda (falou tranquilamente)
 Comparar a mudança nos videos, na eleição de bolsoasno passou de uma mesa improvisada a uma sala chique depois de eleito, choque de cultura passou de um cenario improvisado com caixas a um cenario chique depois de eleito
 
 Choque de cultura #33: A serie mais natalina que tem, 4:58 (tudo é prioridade pra idoso agora) e bolsonaro falando em "privilégio" (negros e índios)
+
+Choque de cultura #33: A serie mais natalina que tem, 6:16 (não temos medo de vcs estados unidos) e bolsonaro falando em usar polvora contra os EUA pelo seu direito de destruir a amazonia
+
+Choque de cultura #33: A serie mais natalina que tem (6:58) reclamando que não é possível todo vídeo ter de ficar pedindo para se inscrever e procurar algum de bolsonaro reclamando da perseguição que "sofre" (ver vídeo da globo)
 
 Também incluir entrevista em que Leandro (Julinho) fala das pessoas que se identificam
 com o personagel (https://www.youtube.com/watch?v=TYMhEeagH9k&list=WL&index=1, minuto 31:41)
