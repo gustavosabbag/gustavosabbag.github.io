@@ -42,6 +42,8 @@ fala de bolsonaro de fazer coco dia sim dia nao para melhorar meio ambiente
 
 "Boi Bombeiro" e rocky treinando em harmonia com a natureza destruindo árvores, jogando bateria no rio (Choque de cultura show 8, o bom gigante amigo, 5:08 até 5:30, fala do pneu na natureza)
 
+Choque de cultura show #4, juntos e misturados (3:08) fala q é tradição brasileira insinuar que a pessoa é homossexual; Bolsoasno falando que quem tratar COVID é maricas ou que não pode fazer piada com nada
+
 fala de bolsonaro sobre transar com animais na fazenda (falou tranquilamente)
 
 Comparar a mudança nos videos, na eleição de bolsoasno passou de uma mesa improvisada a uma sala chique depois de eleito, choque de cultura passou de um cenario improvisado com caixas a um cenario chique depois de eleito
