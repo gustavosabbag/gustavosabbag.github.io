@@ -45,10 +45,8 @@ Choque de cultura, no episódio de Piratas do caribe em que rogerinho corta juli
 este ia falar, ele fala pra deixar terminar de falar primeiro, e rogerinho fala em seguida
 que ele nunca mais vai dar ordem (autoritarismo de rogerinho)
 
-fala de bolsonaro de fazer coco dia sim dia nao para melhorar meio ambiente/ jogar pneu no
-meio ambiente é bom pra natureza, algum dos videos na globo; e alguns minutos antes disso fala outra coisa mais engraçada ainda de meio ambiente, deve ser no video sobre o gigante
-
-"Boi Bombeiro"
+fala de bolsonaro de fazer coco dia sim dia nao para melhorar meio ambiente/ ministra fala do boi bombeiro/ Choque de Cultura Show: #8: O Bom Gigante Amigo (5:07): rocky treina em harmonia com a natureza, destruindo arvore, jogando bateria de carro em rio e jogar pneu no
+meio ambiente é bom pra natureza, algum dos videos na globo;
 
 fala de bolsonaro sobre transar com animais na fazenda (falou tranquilamente)
 
