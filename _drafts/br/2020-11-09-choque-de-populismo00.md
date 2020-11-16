@@ -13,6 +13,9 @@ article_header:
     src: /imageheader/choquepopulismo2.jpg
 ---
 
+
+
+
 <div style='text-align:justify'>
 
 <h5> Donaldinho do USÁ e BolsonaRenan: Porque Choque de Cultura é uma aula sobre o sucesso dos maiores nomes da "representação alternativa" populista </h5>
@@ -42,7 +45,8 @@ Choque de cultura, no episódio de Piratas do caribe em que rogerinho corta juli
 este ia falar, ele fala pra deixar terminar de falar primeiro, e rogerinho fala em seguida
 que ele nunca mais vai dar ordem (autoritarismo de rogerinho)
 
-fala de bolsonaro de fazer coco dia sim dia nao para melhorar meio ambiente
+fala de bolsonaro de fazer coco dia sim dia nao para melhorar meio ambiente/ jogar pneu no
+meio ambiente é bom pra natureza, algum dos videos na globo; e alguns minutos antes disso fala outra coisa mais engraçada ainda de meio ambiente, deve ser no video sobre o gigante
 
 "Boi Bombeiro"
 
@@ -57,8 +61,61 @@ Choque de cultura #33: A serie mais natalina que tem, 6:16 (não temos medo de v
 Choque de cultura #33: A serie mais natalina que tem (6:58) reclamando que não é possível todo vídeo ter de ficar pedindo para se inscrever e procurar algum de bolsonaro reclamando da perseguição que "sofre" (ver vídeo da globo)
 
 Também incluir entrevista em que Leandro (Julinho) fala das pessoas que se identificam
-com o personagel (https://www.youtube.com/watch?v=TYMhEeagH9k&list=WL&index=1, minuto 31:41)
+com o personagel (https://www.youtube.com/watch?v=TYMhEeagH9k&list=WL&index=1, minuto 31:31)
 
 [^1]: affec
 [^longnote]: bff
 </div>
+
+
+<style>
+  .swiper-demo {
+    height: 220px; <!-- remover esse swiper demo para ficar do tamanho do video -->
+  }
+  .swiper-demo .swiper__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: #fff; <!-- remover todas as cores -->
+  }
+  .swiper-demo .swiper__slide:nth-child(even) {
+    background-color: #ff69b4;
+  }
+  .swiper-demo .swiper__slide:nth-child(odd) {
+    background-color: #2593fc;
+  }
+  .swiper-demo--dark .swiper__slide:nth-child(even) {
+    background-color: #312;
+  }
+  .swiper-demo--dark .swiper__slide:nth-child(odd) {
+    background-color: #123;
+  }
+  .swiper-demo--image .swiper__slide:nth-child(n) {
+    background-color: #000;
+  }
+</style>
+
+
+<div class="swiper swiper-demo">
+  <div class="swiper__wrapper">
+    <div class="swiper__slide">{%- include extensions/youtube.html id='TYMhEeagH9k?list=WL&t=1890' -%}
+</div>
+    <div class="swiper__slide">ANTI</div>
+    <div class="swiper__slide">DO</div>
+    <div class="swiper__slide">C#$#%$#</div>
+    <div class="swiper__slide">5</div>
+    <div class="swiper__slide">6</div>
+    <div class="swiper__slide">7</div>
+  </div>
+  <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
+  <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
+</div>
+
+<script>
+{%- include scripts/lib/swiper.js -%}
+var SOURCES = window.TEXT_VARIABLES.sources;
+window.Lazyload.js(SOURCES.jquery, function() {
+  $('.swiper-demo').swiper();
+});
+</script>
