@@ -58,6 +58,9 @@ Choque de cultura #33: A serie mais natalina que tem, 6:16 (não temos medo de v
 
 Choque de cultura #33: A serie mais natalina que tem (6:58) reclamando que não é possível todo vídeo ter de ficar pedindo para se inscrever e procurar algum de bolsonaro reclamando da perseguição que "sofre" (ver vídeo da globo)
 
+Marvel vs DC (1:57) renan fala q EUA é patriota e Brasil é bagunça, da pra associar com viralatismo de bolsoasno
+
+
 Também incluir entrevista em que Leandro (Julinho) fala das pessoas que se identificam
 com o personagel (https://www.youtube.com/watch?v=TYMhEeagH9k&list=WL&index=1, minuto 31:31)
 
