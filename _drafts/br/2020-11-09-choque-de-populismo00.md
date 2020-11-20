@@ -60,6 +60,8 @@ Choque de cultura #33: A serie mais natalina que tem (6:58) reclamando que não 
 
 Marvel vs DC (1:57) renan fala q EUA é patriota e Brasil é bagunça, da pra associar com viralatismo de bolsoasno
 
+Marvel vs DC (3:08) um bom resumo (talvez?) do discurso populista recente: teorias de conspiração (papa franquia e etc), discurso simples, direto que assimila temas ou personagens da vida pública com especulações sem fundamento em nenhum tipo de evidência, mas dito de uma forma simples de entender e com uma lógica aparente, mas falaciosa, com justificativas ("papa solta feitiço, se não qualquer um ia poder ser papa"), mas justificativas minimamente preocupadas com os fatos.
+
 
 Também incluir entrevista em que Leandro (Julinho) fala das pessoas que se identificam
 com o personagel (https://www.youtube.com/watch?v=TYMhEeagH9k&list=WL&index=1, minuto 31:31)
