@@ -64,6 +64,9 @@ Marvel vs DC (3:08) um bom resumo (talvez?) - a série inteira é assim, selecio
 
 MArvel vs DC(5:05) justificando velocidade alta, procurar video do bolsonaro defendendo aumentar pontos da carteira ou retirando radar
 
+Velozes e Furiosos é arte, rapaz! | Choque de Cultura #3 (4:03) Começa falando q vai defender HUlk e termina falando coisa nada a ver, comparar com o podcast sobre bolsoasno (ep 01) em que a jornalista diz que o irmão de bolsoasno fala que nem ele, começa um assunto e em seguida emenda outro mais ou menos igual
+
+
 
 Também incluir entrevista em que Leandro (Julinho) fala das pessoas que se identificam
 com o personagel (https://www.youtube.com/watch?v=TYMhEeagH9k&list=WL&index=1, minuto 31:31)
