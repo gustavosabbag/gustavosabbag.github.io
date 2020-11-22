@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Quem tem medo de Karl Marx (ou Von Mises)?
+title: Teste portugues
 excerpt: Portugues Lorem ipsum dolor venenatis blandit at primis condimentum congue vehicula augue, est dictumst habitasse tortor bibendum nam nisi duis conubia condimentum, dui est scelerisque eget volutpat ultrices lectus gravida faucibus englishlis.
 tag: Análise de Conjuntura
 
@@ -14,6 +14,8 @@ article_header:
   image:
     src: /imageheader/partbook4pt.jpeg
 ---
+
+<!--
 
 <div style='text-align:justify'>
 <p>

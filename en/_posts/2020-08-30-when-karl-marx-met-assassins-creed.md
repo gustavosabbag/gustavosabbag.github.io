@@ -1,6 +1,6 @@
 ---
 layout: article
-title: When Karl Marx met Assassins Creed
+title: Teste english 2
 mode: immersive
 categories: analysis
 idy: quando3008

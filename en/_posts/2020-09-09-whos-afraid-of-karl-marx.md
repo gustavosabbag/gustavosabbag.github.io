@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Who's Afraid of Karl Marx (or Von Mises)?
+title: teste english
 tag: Conjunctural Analysis
 mode: immersive
 categories: analysis

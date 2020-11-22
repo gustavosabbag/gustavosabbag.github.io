@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Quando Karl Marx encontrou Assassins Creed
+title: teste portugues2
 mode: immersive
 categories: analises
 idy: quando3008

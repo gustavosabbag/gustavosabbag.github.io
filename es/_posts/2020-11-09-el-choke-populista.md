@@ -1,6 +1,6 @@
 ---
 layout: article
-title: El Choque de Populista
+title: Teste espanhol
 excerpt: Donaldinho do USÁ e BolsonaRenan: Porque o humorístico é uma aula sobre o solo fértil em que tende a germinar os maiores nomes da "representação alternativa" populista
 mode: immersive
 categories: analises
@@ -13,7 +13,7 @@ article_header:
   image:
     src: /imageheader/choquepopulismo.jpg
 ---
-
+<!--
 <div style='text-align:justify'>
 
 Se você já assistiu ao programa humorístico "Choque de Cultura", com certeza se identificou com aquele quarteto. Talvez não por pensar exatamente como eles (espero), mas por conhecer alguém (ou mesmo ter algum parente, provavelmente um tio) que poderia estar dividindo aqueles bancos com os personagens e tendo uma conversa franca (e "falando com tranquilidade"...).
