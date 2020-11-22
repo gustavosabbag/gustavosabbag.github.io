@@ -57,8 +57,8 @@
       sectionTopArticleIndex.push(index);
     }
 
-    function searchButtonsByTag(_tag/*raw tag*/) {
-      if (!_tag && _tag.lang == 'br') {
+  //  function searchButtonsByTag(_tag/*raw tag*/) {
+      if (!_tag) {
         return $tagShowAll;
       }
       var _buttons = $articleTags.filter('[data-encode="' + _tag + '"]');
