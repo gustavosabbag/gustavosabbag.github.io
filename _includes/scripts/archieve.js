@@ -58,7 +58,7 @@
     }
 
     function searchButtonsByTag(_tag/*raw tag*/) {
-      if (!_tag && page.lang == 'br') {
+      if (!_tag && _tag.lang == 'br') {
         return $tagShowAll;
       }
       var _buttons = $articleTags.filter('[data-encode="' + _tag + '"]');
