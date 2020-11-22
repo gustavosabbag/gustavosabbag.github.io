@@ -62,7 +62,7 @@ Marvel vs DC (1:57) renan fala q EUA é patriota e Brasil é bagunça, da pra as
 
 Marvel vs DC (3:08) um bom resumo (talvez?) - a série inteira é assim, selecionei esse exemplo emblemático pro ser um dos meus preferidos - do discurso populista recente: teorias de conspiração (papa franquia e etc), discurso simples, direto que assimila temas ou personagens da vida pública com especulações sem fundamento em nenhum tipo de evidência, mas dito de uma forma simples de entender e com uma lógica aparente, mas falaciosa, com justificativas ("papa solta feitiço, se não qualquer um ia poder ser papa"), mas justificativas minimamente preocupadas com os fatos.
 
-MArvel vs DC(5:05) justificando velocidade alta, procurar video do bolsonaro defendendo aumentar pontos da carteira ou retirando radar
+MArvel vs DC(5:05) justificando velocidade alta/ CHOQUE DE CULTURA #5: A Melhor Comédia do Ano (5:15) falando sobre placa q nao ajuda em nada, procurar video do bolsonaro defendendo aumentar pontos da carteira ou retirando radar
 
 Velozes e Furiosos é arte, rapaz! | Choque de Cultura #3 (4:03) Começa falando q vai defender HUlk e termina falando coisa nada a ver, comparar com o podcast sobre bolsoasno (ep 01) em que a jornalista diz que o irmão de bolsoasno fala que nem ele, começa um assunto e em seguida emenda outro mais ou menos igual
 
