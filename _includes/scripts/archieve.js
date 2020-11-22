@@ -75,12 +75,14 @@
       }
     }
 
-    //function tagSelect (tag/*raw tag*/, target) {
-      //var result = {}, $articles;
-      //var i, j, k, _tag;
+    function tagSelect (tag/*raw tag*/, target) {
+      var result = {}, $articles;
+      var i, j, k, _tag;
 
       for (i = 0; i < sectionArticles.length; i++) {
+        if(page.lang == 'br'){
         $articles = sectionArticles[i];
+        }
         for (j = 0; j < $articles.length; j++) {
           if (tag === '' || tag === undefined) {
             result[i] || (result[i] = {});
