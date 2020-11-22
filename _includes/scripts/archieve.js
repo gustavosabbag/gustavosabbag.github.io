@@ -75,9 +75,9 @@
       }
     }
 
-    function tagSelect (tag/*raw tag*/, target) {
-      var result = {}, $articles;
-      var i, j, k, _tag;
+    //function tagSelect (tag/*raw tag*/, target) {
+      //var result = {}, $articles;
+      //var i, j, k, _tag;
 
       for (i = 0; i < sectionArticles.length; i++) {
         $articles = sectionArticles[i];
