@@ -61,7 +61,7 @@
       if (!_tag) {
         return $tagShowAll;
       }
-      //var _buttons = $articleTags.filter('[data-encode="' + _tag + '"]');
+      var _buttons = $articleTags.filter('[data-encode="' + _tag + '"]');
       if (_buttons.length === 0) {
         return $tagShowAll;
       }
