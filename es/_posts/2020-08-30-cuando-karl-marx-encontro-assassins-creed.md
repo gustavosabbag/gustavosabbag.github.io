@@ -5,6 +5,7 @@ mode: immersive
 categories: analisis
 idy: quando3008
 tag: Entretenimiento y política
+lang: es
 header:
   theme: dark
 article_header:

@@ -3,7 +3,7 @@ layout: article
 title: Teste portugues
 excerpt: Portugues Lorem ipsum dolor venenatis blandit at primis condimentum congue vehicula augue, est dictumst habitasse tortor bibendum nam nisi duis conubia condimentum, dui est scelerisque eget volutpat ultrices lectus gravida faucibus englishlis.
 tag: Análise de Conjuntura
-
+lang: br
 mode: immersive
 categories: analises
 idy: quem0909

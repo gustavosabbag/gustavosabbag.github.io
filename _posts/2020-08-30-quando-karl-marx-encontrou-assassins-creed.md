@@ -3,6 +3,7 @@ layout: article
 title: teste portugues2
 mode: immersive
 categories: analises
+lang: br
 idy: quando3008
 tag: Entretenimento e política
 header:

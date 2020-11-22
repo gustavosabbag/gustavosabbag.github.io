@@ -6,6 +6,7 @@ mode: immersive
 categories: analises
 idy: choque110820
 tag: Entretenimento e política
+lang: es
 header:
   theme: dark
 article_header:

@@ -3,6 +3,7 @@ layout: article
 title: Choque de Populismo
 categories: analises
 idy: choque110820
+lang: br
 tag: Entretenimento e política
 mode: immersive
 header:

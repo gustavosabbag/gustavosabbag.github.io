@@ -4,6 +4,7 @@ title: teste english
 tag: Conjunctural Analysis
 mode: immersive
 categories: analysis
+lang: br
 idy: quem0909
 sharing: true
 header:
