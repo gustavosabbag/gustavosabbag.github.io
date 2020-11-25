@@ -24,7 +24,7 @@
         Mostrar todos<div class="tag-button__count">{{ poste | size }}</div>
       </button>
     </li>
-    {%- elsif page.lang == 'en' -%}
+  <!--  {%- elsif page.lang == 'en' -%}
       <li>
         <button type="button" class="button button--secondary button--pill tag-button tag-button--all" data-encode="">
           Show all<div class="tag-button__count">{{ poste | size }}</div>
@@ -35,7 +35,7 @@
         <button type="button" class="button button--secondary button--pill tag-button tag-button--all" data-encode="">
           Mostrar todos<div class="tag-button__count">{{ poste | size }}</div>
         </button>
-      </li>
+      </li>-->
     {%- endif -%}
     {%- for _tag in _tags -%}
       {%- assign _tag_cur_size = _tag[1].size -%}

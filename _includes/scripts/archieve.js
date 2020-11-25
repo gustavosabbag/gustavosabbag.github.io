@@ -57,7 +57,7 @@
       sectionTopArticleIndex.push(index);
     }
 
-    function searchButtonsByTag(_tag/*raw tag*/) {
+   function searchButtonsByTag(_tag/*raw tag*/) {
       if (!_tag) {
         return $tagShowAll;
       }
