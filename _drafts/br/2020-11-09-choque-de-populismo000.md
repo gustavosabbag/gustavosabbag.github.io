@@ -3,6 +3,7 @@ layout: article
 title: Choque de Populismo
 categories: analises
 idy: choque110820
+lang: br
 tag: Entretenimento e política
 mode: immersive
 header:
@@ -14,14 +15,16 @@ article_header:
 ---
 
 
-
+<!--
 
 <div style='text-align:justify'>
 
 <h5> Donaldinho do USÁ e BolsonaRenan: Porque Choque de Cultura é uma aula sobre o sucesso dos maiores nomes da "representação alternativa" populista </h5>
 
-<!--more-->
+Falar que por mais que Donald Trump tenha perdido as eleição e isso tenha um impacto, a aura populista continuará rondando o mundo (e incluir esse link https://brasil.elpais.com/internacional/2020-11-22/derrota-de-trump-abala-o-populismo-no-mundo-mas-nao-o-derruba.html)
 
+<!--more-->
+<!--
 Falar de repente da definição de populismo que leva em consideração o fato de ter aquela dimensão "low" em que em vez de ser elitista e instru'ído, é popularesco e informal. Colocar algo no sentido de:"uma das principais abordagens sobre o populisto, a socio-histórica de Ostguy, por exemplo, chama atenção para o jeito vulgar, ofensivo, etc.. (ver como ele coloca) que esses populistas podem ter, tendendo a se parecer com seu eleitorado."
 
 Mas tambem ressaltar que tambem há fatores contextuais que favorecerem esses atores políticos, nem todo eleitor é choque de cultura
