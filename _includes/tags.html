@@ -1,9 +1,21 @@
 {%- assign _tag_max_size = 1 -%}
 {%- assign _tag_min_size = 1 -%}
 {%- assign _tag_cur_size = 1 -%}
-{%- assign _tags = site.posts | where: 'lang', page.lang | map: 'tags' | sort -%}
+<!--
+{%- for tag in site.tags -%}
+  {%- assign __tags = "" | split: "/"}
+  {%- for post in tag[1] -%}
+    {%- if post.lang == page.lang -%}
+    {%- assign __tags = __tags | push: post.tag -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+{%- assign _tigs = site.posts | where: 'lang', page.lang | map: 'tags'  -%}
+{%- assign _tags = _tigs | uniq -%}
+-->
+{%- assign _tags = site.tags | sort -%}
 {%- for _tag in _tags -%}
-  {%- assign _tag_cur_size = _tag[1].size -%}
+  {%- assign _tag_cur_size = _tag | size -%}
   {%- if _tag_cur_size > _tag_max_size -%}
     {%- assign _tag_max_size =  _tag_cur_size -%}
   {%- endif -%}
@@ -24,7 +36,7 @@
         Mostrar todos<div class="tag-button__count">{{ poste | size }}</div>
       </button>
     </li>
-  <!--  {%- elsif page.lang == 'en' -%}
+    {%- elsif page.lang == 'en' -%}
       <li>
         <button type="button" class="button button--secondary button--pill tag-button tag-button--all" data-encode="">
           Show all<div class="tag-button__count">{{ poste | size }}</div>
@@ -35,10 +47,10 @@
         <button type="button" class="button button--secondary button--pill tag-button tag-button--all" data-encode="">
           Mostrar todos<div class="tag-button__count">{{ poste | size }}</div>
         </button>
-      </li>-->
+      </li>
     {%- endif -%}
     {%- for _tag in _tags -%}
-      {%- assign _tag_cur_size = _tag[1].size -%}
+      {%- assign _tag_cur_size = _tag | size -%}
       {%- assign _tag_min_1 = _tag_min_size -%}
       {%- assign _tag_max_1 = _tag_min_1 | plus: _tag_gap_size -%}
       {%- assign _tag_min_2 = _tag_max_1 -%}
