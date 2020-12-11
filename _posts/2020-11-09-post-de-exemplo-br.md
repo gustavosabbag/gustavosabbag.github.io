@@ -112,9 +112,9 @@ com o personagel (https://www.youtube.com/watch?v=TYMhEeagH9k&list=WL&index=1, m
   <div class="swiper__wrapper">
     <div class="swiper__slide">{%- include extensions/youtube.html id='TYMhEeagH9k?list=WL&t=1890' -%}
 </div>
-    <div class="swiper__slide">ANTI</div>
-    <div class="swiper__slide">DO</div>
-    <div class="swiper__slide">C#$#%$#</div>
+    <div class="swiper__slide">1</div>
+    <div class="swiper__slide">2</div>
+    <div class="swiper__slide">3</div>
     <div class="swiper__slide">5</div>
     <div class="swiper__slide">6</div>
     <div class="swiper__slide">7</div>
