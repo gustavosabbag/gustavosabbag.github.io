@@ -137,7 +137,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: custom # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
@@ -259,3 +259,22 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-redirect-from
+
+# The URL for the staticman API bridge endpoint
+# You will want to modify some of the values:
+#  ${github-username}: the username of the account with which you publish your blog
+#  ${blog-repo}: the name of your blog repository in github
+#  master: this the branch out of which your blog is published, often master or gh-pages
+#  ${bridge_app_name}: the name you chose in Heroku for your bridge API
+#  comments: the so-called property, this defines the key in staticman.yml where the configuration is found
+#
+# for me, this line reads:
+# https://staticman-travisdownsio.herokuapp.com/v2/entry/travisdowns/travisdowns.github.io/master/comments
+staticman_url: https://comentarios-gustavosabbag.herokuapp.com/v2/entry/gustavosabbag/gustavosabbag.github.io/master/comments
+
+# reCaptcha configuration info: the exact same site key and *encrypted* secret that you used in staticman.yml
+# I personally don't think the secret needs to be included in the generated site, but the staticman API bridge uses
+# it to ensure the site configuration and bridge configuration match (but why not just compare the site key?)
+reCaptcha:
+  siteKey: 6LekywMaAAAAAO3dUHGVByE7LZdt7D99mQRDfK0O
+  secret: I7jNWIZ07CcXLGtNLaW8v+ZHh+Jv6ify4hSyX2Ce5heLAqEe97mA4uDq0XGxU+DQ5RiiTnNpAF/slZGQh4jnzTdJ0ETAiKDgDtwXd9U3qXqOiDiwTeQj5MPjoUDehqpMCnvyf4lMpNla8J54UnCloiMN3PCMmp/YSjMsAGweRp3DSWycc2uSVn2GiWGT+Ko2UvguZHVyK38wsw8lzpcYJB2uMkFBKsblabREcGVA6d4QpogmeSpd7oBnlrIyUmCoKyRPbZqjCia5SJACVR+cEBJ7rorhuGjdsIbup4zSoKOfssvT0zU92NvqsVGYOgVGQ0lhsDncQODhnU9rscyywEYio9hN9zvgqexM0s6b3skIfsKN4d4pMA44YNeBc3nAH8Qitdw5NC1awTMkLtNSWKZY9P52kyOiWi2ETv3vBKJXzstJ2C/KcQFlSloqs2l19AnUELMCOXrBqGDperzSZSRRuRJ8I07hB1x4s3TTjpM2UkeQY594pwDx6145i/UzLEiJlipZ1gFxneJYp6zrLc+CwudrrQ7imAM1OvezXcHABw8QqXyzlN/ER1dImI50FwOKpCgET0HCmy7q0EbMlIDKv0wLbBa4cNJp70Xj0RX4PV8T+DCOr/aX31/HFDnnql0M9+90aum7iW1YoYAIXylosr2x+ExuRSEjp18icME=
