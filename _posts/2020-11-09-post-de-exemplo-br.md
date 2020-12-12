@@ -5,6 +5,7 @@ categories: analises
 idy: choque110820
 lang: br
 tag: Tag em português
+comments: true
 mode: immersive
 header:
   theme: dark
