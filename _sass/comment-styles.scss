@@ -1,9 +1,15 @@
 // comment styles from
 // https://github.com/willymcallister/willymcallister.github.io/blob/fbc7f396fbe80186b1abc63e436ec509190c1b3a/assets/main.scss
 
-$base-font-size:    18px !default;
-$comment-font-size: 17px !default;
-
+$base-font-size:    18px ;
+$comment-font-size: 17px ;
+$base-font-weight: 400 ;
+$brand-color:       #1E72DC ;
+$grey-color:        #757575 ;
+$base-line-height: 1.5 ;
+$base-font-family: "Segoe UI", Helvetica, Arial, sans-serif ;
+$small-font-size: 0.75em ;
+$grey-color-light:  #D3D3D3 ;
 
 //
 // Staticman new comment form
@@ -54,7 +60,7 @@ textarea {
 .notify-me, .g-recaptcha {
     padding: 0.5rem 0;
 }
-.button {
+.buttonenv {
     background: rgba(158,158,158,.2);
     box-shadow: 0 2px 2px 2px rgba(0,0,0,.14);
     border: none;
@@ -67,7 +73,7 @@ textarea {
     margin: 4px 0px 0px 0px;
 }
 button:hover {
-    background-color: $grey-color;
+    background-color: $grey-color-light;
     color: white;
 }
 
@@ -111,13 +117,13 @@ button:hover {
 }
 
 //
-// Pop-up modal window for Staticman comments
+// Pop-up modal2 window for Staticman comments
 //
-.show-modal {
+.show-modal2 {
     overflow: hidden;
     position: relative;
 }
-.show-modal:before {
+.show-modal2:before {
     position: absolute;
     content: '';
     top: 0;
@@ -127,7 +133,7 @@ button:hover {
     z-index: 999;
     background-color: rgba(255, 255, 255, 0.85);
 }
-.show-modal .modal {
+.show-modal2 .modal2 {
     display: block;
 }
 .mdl-card {
@@ -138,7 +144,8 @@ button:hover {
     background: #fff;
     box-sizing: border-box;
 }
-.modal {
+/**/
+.modal2 {
     display: none;
     position: fixed;
     width: 330px;
@@ -153,6 +160,7 @@ button:hover {
     border-radius: 2px;
     background: white;
 }
+
 .mdl-shadow--16dp {
     box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
 }
@@ -161,7 +169,7 @@ button:hover {
     padding: 16px;
     width: 90%;
 }
-.modal-title {
+.modal2-title {
     margin-bottom: 0px;
 }
 
