@@ -4,6 +4,8 @@ title: Example post 2
 tag: Tag in english 2
 mode: immersive
 categories: analysis
+lang: en
+comments: true
 idy: quem0909
 sharing: true
 header:
