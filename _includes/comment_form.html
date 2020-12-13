@@ -1,3 +1,4 @@
+{%- if page.lag == 'en' -%}
 <form class="js-form form" method="post" action="{{ site.staticman_url }}">
   <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
   <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
@@ -6,7 +7,6 @@
   <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
   <input type="hidden" name="options[reCaptcha][secret]"  value="{{ site.reCaptcha.secret }}">
 
-{%- if page.lang == 'en' -%}
   <div class="textfield">
     <label for="comment-form-message"><h2>Add Comment<small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">(cancel reply)</a></small></h2>
       <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Your comment (markdown accepted)" required rows="6"></textarea>
@@ -48,6 +48,14 @@
     <button class="button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-close-modal2">Close</button>
   </div>
 {%- elsif page.lang == 'br' -%}
+
+<form class="js-formbr form" method="post" action="{{ site.staticman_url }}">
+  <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
+  <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
+  <input type="hidden" id="comment-replying-to-uid" name="fields[replying_to_uid]" value="">
+  <input type="hidden" name="options[slug]" value="{{ page.slug }}">
+  <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
+  <input type="hidden" name="options[reCaptcha][secret]"  value="{{ site.reCaptcha.secret }}">
 <div class="textfield">
   <label for="comment-form-message"><h2>Comentar<small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">(cancelar resposta)</a></small></h2>
     <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Seu comentário" required rows="6"></textarea>
@@ -90,6 +98,13 @@
 </div>
 
 {%- else -%}
+<form class="js-formes form" method="post" action="{{ site.staticman_url }}">
+  <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
+  <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
+  <input type="hidden" id="comment-replying-to-uid" name="fields[replying_to_uid]" value="">
+  <input type="hidden" name="options[slug]" value="{{ page.slug }}">
+  <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
+  <input type="hidden" name="options[reCaptcha][secret]"  value="{{ site.reCaptcha.secret }}">
 <div class="textfield">
   <label for="comment-form-message"><h2>Comentario<small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">(cancelar respuesta)</a></small></h2>
     <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Tu comentario" required rows="6"></textarea>

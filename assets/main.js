@@ -3,7 +3,7 @@
 (function ($) {
   var $comments = $('.js-comments');
 
-  $('.js-form').submit(function () {
+  $('.js-formbr').submit(function () {
     var form = this;
 
 
@@ -18,7 +18,43 @@
       data: $(this).serialize(),
       contentType: 'application/x-www-form-urlencoded',
       success: function (data) {
-        showModal('Comment submitted', 'Thanks! Your comment is <a href="https://github.com/travisdowns/travisdowns.github.io/pulls">pending</a>. It will appear when approved.');
+        showmodal2('Comentário submetido', 'Obrigado! Seu comentário foi <a href="https://github.com/gustavosabbag/gustavosabbag.github.io/pulls">submetido</a>. Ele aparecerá quando aprovado.');
+
+        $("#comment-form-submit")
+          .html("Enviar");
+
+        $(form)[0].reset();
+        $(form).removeClass('disabled');
+        grecaptcha.reset();
+      },
+      error: function (err) {
+        console.log(err);
+        var ecode = (err.responseJSON || {}).errorCode || "unknown";
+        showmodal2('Erro', 'Ocorreu um erro.<br>[' + ecode + ']');
+        $("#comment-form-submit").html("Enviar")
+        $(form).removeClass('disabled');
+        grecaptcha.reset();
+      }
+    });
+    return false;
+  });
+
+  $('.js-formen').submit(function () {
+    var form = this;
+
+
+    $("#comment-form-submit").html(
+      '<svg class="icon spin"><use xlink:href="#icon-loading"></use></svg> Sending...'
+    );
+    $(form).addClass('disabled');
+
+    $.ajax({
+      type: $(this).attr('method'),
+      url:  $(this).attr('action'),
+      data: $(this).serialize(),
+      contentType: 'application/x-www-form-urlencoded',
+      success: function (data) {
+        showmodal2('Comment submitted', 'Thanks! Your comment is <a href="https://github.com/gustavosabbag/gustavosabbag.github.io/pulls">pending</a>. It will appear when approved.');
 
         $("#comment-form-submit")
           .html("Submit");
@@ -30,7 +66,7 @@
       error: function (err) {
         console.log(err);
         var ecode = (err.responseJSON || {}).errorCode || "unknown";
-        showModal('Error', 'An error occured.<br>[' + ecode + ']');
+        showmodal2('Error', 'An error occured.<br>[' + ecode + ']');
         $("#comment-form-submit").html("Submit")
         $(form).removeClass('disabled');
         grecaptcha.reset();
@@ -39,14 +75,50 @@
     return false;
   });
 
-  $('.js-close-modal').click(function () {
-    $('body').removeClass('show-modal');
+  $('.js-formes').submit(function () {
+    var form = this;
+
+
+    $("#comment-form-submit").html(
+      '<svg class="icon spin"><use xlink:href="#icon-loading"></use></svg> Sending...'
+    );
+    $(form).addClass('disabled');
+
+    $.ajax({
+      type: $(this).attr('method'),
+      url:  $(this).attr('action'),
+      data: $(this).serialize(),
+      contentType: 'application/x-www-form-urlencoded',
+      success: function (data) {
+        showmodal2('Comentário submetido', 'Gracias! Tu comentario ha sido <a href="https://github.com/gustavosabbag/gustavosabbag.github.io/pulls">enviado</a>. Aparecerá cuando se apruebe.');
+
+        $("#comment-form-submit")
+          .html("Enviar");
+
+        $(form)[0].reset();
+        $(form).removeClass('disabled');
+        grecaptcha.reset();
+      },
+      error: function (err) {
+        console.log(err);
+        var ecode = (err.responseJSON || {}).errorCode || "unknown";
+        showmodal2('Error', 'Ocurrio un error.<br>[' + ecode + ']');
+        $("#comment-form-submit").html("Enviar")
+        $(form).removeClass('disabled');
+        grecaptcha.reset();
+      }
+    });
+    return false;
   });
 
-  function showModal(title, message) {
-    $('.js-modal-title').text(title);
-    $('.js-modal-text').html(message);
-    $('body').addClass('show-modal');
+  $('.js-close-modal2').click(function () {
+    $('body').removeClass('show-modal2');
+  });
+
+  function showmodal2(title, message) {
+    $('.js-modal2-title').text(title);
+    $('.js-modal2-text').html(message);
+    $('body').addClass('show-modal2');
   }
 })(jQuery);
 
