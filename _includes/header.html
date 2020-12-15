@@ -30,6 +30,8 @@
           {%- for item in site.data.navigation.titles[page.lang] -%}
           {%- if item.url == page.url -%}
             <li class="navigation__item navigation__item--active"><a href="{{ item.url }}">{{ item.title }}</a></li>
+          {%- elsif page.layout == 'article' and item.title == 'Articles' or item.title == 'Artigos' or item.title == 'Artículos' -%}
+            <li class="navigation__item navigation__item--active"><a href="{{ item.url }}">{{ item.title }}</a></li>
           {%- else -%}
             <li class="navigation__item"><a href="{{ item.url }}">{{ item.title }}</a></li>
           {%- endif -%}
