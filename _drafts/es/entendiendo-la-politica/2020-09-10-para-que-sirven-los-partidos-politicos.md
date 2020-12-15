@@ -12,7 +12,7 @@ header:
 article_header:
   type: cover
   image:
-    src: /imageheader/partbook4es.jpeg
+    src: /assets/images/partbook4es.jpeg
 ---
 
 <div style='text-align:justify'>

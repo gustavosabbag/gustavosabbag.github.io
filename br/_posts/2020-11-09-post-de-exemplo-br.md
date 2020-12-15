@@ -12,7 +12,7 @@ header:
 article_header:
   type: cover
   image:
-    src: /imageheader/choquepopulismo2.jpg
+    src: /assets/images/posts/choquepopulismo2.jpg
 ---
 
 
