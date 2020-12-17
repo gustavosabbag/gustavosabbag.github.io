@@ -234,7 +234,7 @@ defaults:
       show_subscribe: true
       pageview: true
   - scope:
-      path: ""
+      path: br
     values:
       lang: br
       base-url: "/br/"
