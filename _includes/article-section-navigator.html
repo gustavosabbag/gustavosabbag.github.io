@@ -32,6 +32,9 @@
 
 {%- else -%}
 <div class="relatedPosts">
+  {%- assign postis = site.posts | where: 'lang', page.lang -%}
+  {%- if postis.size > 1 -%}
+
   {%- if page.lang == "br" -%}
     <h4>Leia também</h4>
   {%- elsif page.lang == "en" -%}
@@ -70,5 +73,6 @@
       {% endif %}
 
     {% endfor %}
+{%- endif -%}
 {%- endif -%}
 </div>

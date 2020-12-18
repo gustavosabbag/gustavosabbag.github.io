@@ -17,7 +17,7 @@
           {%- include snippets/get-nav-url.html path=_paths_root -%}
           <!-- o título do site está aqui -->
           {%- if site.title[page.lang] -%}
-            <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title[page.lang] }}</a>
+            <a title="{%- if site.description[page.lang] -%}{{ site.description[page.lang] }}{%- endif -%}" href="{{ __return }}">{{ site.title[page.lang] }}</a>
           {%- endif -%}
         </div>
         {%- if site.search.provider -%}
