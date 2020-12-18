@@ -4,7 +4,7 @@ title: Post de ejemplo en espanol
 tag: Tag en espanol
 mode: immersive
 categories: analysis
-lang: en
+lang: es
 comments: true
 idy: choque110820
 sharing: true
