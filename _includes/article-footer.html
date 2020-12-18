@@ -42,6 +42,7 @@
 
   Sugestão de artigo
 -->
+  {%- if _show_subscribe -%}
     {%- if page.lang == "br" -%}
     Gostaria de saber mais sobre um assunto específico? Sugira um tema
     <a href="{{ site.baseurl }}/br/contato.html">aqui</a>.
@@ -55,7 +56,6 @@
 
   <br>
  <br>
-  {%- if _show_subscribe -%}
     <div class="article__subscribe">{%- include article/footer/subscribe.html -%}</div>
   {%- endif -%}
 
