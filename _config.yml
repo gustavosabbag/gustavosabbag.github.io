@@ -72,19 +72,19 @@ paths:
     root    : /br/ # title link url, "/" (default)
     home    : /br/ # home layout url, "/" (default)
     archive : /br/artigos.html # "/archive.html" (default)
-    rss     : /br/ # "/feed.xml" (default)
+    rss     : /feed.xml # "/feed.xml" (default)
 
   en:
     root    : /en/ # title link url, "/" (default)
     home    : /en/ # home layout url, "/" (default)
     archive : /en/articles.html # "/archive.html" (default)
-    rss     : /en/feed.xml # "/feed.xml" (default)
+    rss     : /feed.xml # "/feed.xml" (default)
 
   es:
     root    : /es/ # title link url, "/" (default)
     home    : /es/ # home layout url, "/" (default)
     archive : /es/articulos.html # "/archive.html" (default)
-    rss     : /es/feed.xml # "/feed.xml" (default)
+    rss     : /feed.xml # "/feed.xml" (default)
 
 
 ## => Post
