@@ -6,7 +6,7 @@ mode: immersive
 categories: analysis
 lang: en
 comments: true
-idy: quem0909
+idy: choque110820
 sharing: true
 header:
   theme: dark
