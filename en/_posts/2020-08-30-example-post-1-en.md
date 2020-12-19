@@ -2,6 +2,7 @@
 layout: article
 title: Example post in English 1
 idy: choque110820
+category: analysis
 lang: en
 tag: Tag in english 1
 comments: true
@@ -16,7 +17,7 @@ article_header:
 
 <div style='text-align:justify'>
 <p>
-The day that Marx met one of the biggest industry franchise of all times. What  side should he takes? English Lorem ipsum dolor venenatis blandit at primis condimentum congue vehicula augue, est dictumst habitasse tortor bibendum nam nisi duis conubia condimentum, dui est scelerisque eget volutpat ultrices lectus gravida faucibus. <!--more-->
+English Lorem ipsum dolor venenatis blandit at primis condimentum congue vehicula augue, est dictumst habitasse tortor bibendum nam nisi duis conubia condimentum, dui est scelerisque eget volutpat ultrices lectus gravida faucibus. <!--more-->
 
 gravida nibh ultricies aliquam gravida ante blandit sem neque aliquet, id suspendisse porttitor eros nisi netus ipsum risus, ligula pulvinar porttitor tortor est praesent gravida dui.
 duis molestie cursus consequat at dictum congue enim himenaeos arcu, massa donec nibh quis condimentum nam class molestie fames, sociosqu iaculis eu inceptos sollicitudin eget vehicula lobortis.
