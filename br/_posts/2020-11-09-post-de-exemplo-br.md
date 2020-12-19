@@ -1,7 +1,6 @@
 ---
 layout: article
 title: Post de Exemplo em portugues
-categories: analises
 idy: choque110820
 lang: br
 tag: Tag em português

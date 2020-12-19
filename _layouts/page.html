@@ -210,9 +210,19 @@ layout: base
                 {%- endif -%}
 
                     <div class="js-article-content">{{ content }}</div>
+                    <!-- comments section -->
                     {% if page.comments == true %}
-  {% include comments.html %}
-{% endif %}
+                    {%- if page.lang =='br' -%}
+                    <h2> Comentários </h2>
+                    {%- elsif page.lang == 'en' -%}
+                    <h2> Comments </h2>
+                    {%- elsif page.lang == 'es' -%}
+                    <h2> Comentarios </h2>
+                    {% endif %}
+
+                    {% include comments.html %}
+                    {%- endif -%}
+                    <!-- comments section -->
                 </article>
                 {%- include main/bottom/custom.html -%}
               </div>

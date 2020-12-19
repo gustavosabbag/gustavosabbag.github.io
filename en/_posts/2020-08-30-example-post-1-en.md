@@ -1,10 +1,11 @@
 ---
 layout: article
 title: Example post in English 1
-mode: immersive
-categories: analysis
 idy: choque110820
+lang: en
 tag: Tag in english 1
+comments: true
+mode: immersive
 header:
   theme: dark
 article_header:
