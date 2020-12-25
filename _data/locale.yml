@@ -17,7 +17,7 @@ br: &PT
   POST_ON_GITHUB          : "Edit on Github"
   FOLLOW_ME               : "Me siga no [NAME]!"
   FOLLOW_US               : "Siga-nos no [NAME]!"
-  EMAIL_ME                : "Me envie um Email."
+  EMAIL_ME                : "Enviar um Email"
   EMAIL_US                : "Nos envie um Email."
   COPYRIGHT_DATES         : "2020"
 
@@ -37,8 +37,8 @@ en: &EN
   POST_ON_GITHUB          : "Edit on Github"
   FOLLOW_ME               : "Follow me on [NAME]!"
   FOLLOW_US               : "Follow us on [NAME]!"
-  EMAIL_ME                : "Send me an Email."
-  EMAIL_US                : "Send us an Email."
+  EMAIL_ME                : "Send me an Email"
+  EMAIL_US                : "Send us an Email"
   COPYRIGHT_DATES         : "2020"
 
 es: &ES
@@ -57,8 +57,8 @@ es: &ES
   POST_ON_GITHUB          : "Edit on Github"
   FOLLOW_ME               : "Seguime en [NAME]!"
   FOLLOW_US               : "Síguenos en [NAME]!"
-  EMAIL_ME                : "Envíame un Email."
-  EMAIL_US                : "Envianos an Email."
+  EMAIL_ME                : "Envíame un Email"
+  EMAIL_US                : "Envianos an Email"
   COPYRIGHT_DATES         : "2020"
 
 
