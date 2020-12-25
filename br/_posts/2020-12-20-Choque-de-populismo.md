@@ -15,21 +15,6 @@ article_header:
   image:
     src: /assets/images/posts/choque201220/choquepopulismo2.jpg
 ---
-<script>
-{%- include scripts/lib/swiper.js -%}
-var SOURCES = window.TEXT_VARIABLES.sources;
-window.Lazyload.js(SOURCES.jquery, function() {
-  $('.swiper-1').swiper();
-  $('.swiper-2').swiper();  
-  $('.swiper-3').swiper();
-  $('.swiper-4').swiper();  
-  $('.swiper-5').swiper();  
-  $('.swiper-6').swiper();  
-
-
-});
-</script>
-
 <div style='text-align:justify'>
 
 <h5> Donaldinho do "EUÁ" e BolsonaRenan: Por que Choque de Cultura é uma aula sobre o sucesso dos maiores nomes da "representação alternativa" populista </h5>
@@ -214,3 +199,18 @@ window.Lazyload.js(SOURCES.jquery, function() {
 </div>
 
 ---
+
+<script>
+{%- include scripts/lib/swiper.js -%}
+var SOURCES = window.TEXT_VARIABLES.sources;
+window.Lazyload.js(SOURCES.jquery, function() {
+  $('.swiper-1').swiper();
+  $('.swiper-2').swiper();  
+  $('.swiper-3').swiper();
+  $('.swiper-4').swiper();  
+  $('.swiper-5').swiper();  
+  $('.swiper-6').swiper();  
+
+
+});
+</script>

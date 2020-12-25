@@ -259,6 +259,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-seo-tag
   jekyll-text-theme
 
 BUNDLED WITH
