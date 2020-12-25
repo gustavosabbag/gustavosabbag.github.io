@@ -47,7 +47,7 @@
       </li>
     {%- endif -%}
     {%- for _tag in _tags -%}
-      {%- assign tag1 = site.tags[_tag] -%}
+      {%- assign tag1 = site.tags[_tag] | where: 'lang', page.lang -%}
       {%- assign _tag_cur_size = tag1 | size -%}
       {%- assign _tag_min_1 = _tag_min_size -%}
       {%- assign _tag_max_1 = _tag_min_1 | plus: _tag_gap_size -%}
