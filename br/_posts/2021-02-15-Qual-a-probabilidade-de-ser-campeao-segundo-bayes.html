@@ -1,0 +1,88 @@
+---
+layout: article
+title: Qual a probabilidade do São Paulo ser campeão, dado que ganhou do Grêmio, de acordo com o Bayes?
+lang: br
+idy: qual150221
+tags:
+  - Futebol
+comments: true
+mode: immersive
+header:
+  theme: dark
+article_header:
+  type: cover
+  image:
+    src: /assets/images/posts/qual150221/gresan4.jpg
+---
+<!--more-->
+<div style='text-align:justify'>
+
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+<p>Todo sãopaulino este ano se sentiu confuso como <a href="https://www.metropoles.com/esportes/futebol/torcedor-do-sao-paulo-ex-bbb-lucas-penteado-se-assusta-com-momento-do-time" target="_blank">Lucas Salgado, do BBB</a>. Entrou na casa 7 pontos à frente do segundo, e, de repente, saiu 7 pontos atrás. Apesar da frustração, ontem, dia 14/02/2021, o clube paulista conseguiu sua primeira vitória no ano, contra o Grêmio, por 2 a 1. E alguns colegas tricolores voltaram a cogitar o título. Pensei: será que temos razões para acreditar? O que Bayes diria? A partir disso, resolvi calcular as chances do São Paulo ser campeão, dado que ganhou do Grêmio.</p>
+<p>Bayes nos diz que a probabilidade de um evento A (<span class="math inline">\(Pr(A)\)</span>) dado um evento B (<span class="math inline">\(Pr(B)\)</span>) é:</p>
+<p><span class="math display">\[Pr(A/B) = \dfrac{Pr(B/A).Pr(A)}{P(B)}\]</span></p>
+<p>Por outro lado, a probabilidade do evento B é:</p>
+<p><span class="math display">\[Pr(B) = Pr(B/A).Pr(A) + Pr(B/A^{c}).Pr(A^{c})\]</span></p>
+<p>Se pensarmos em termos de <em>A = ganhar do Grêmio</em> e <em>B = Ser Campeão</em>, podemos olhar para o passado para obter esses valores e estimar as chances do São Paulo este ano. Para isso, precisamos de 4 estatísticas do Brasileirão: a probabilidade do SPFC ganhar do Grêmio, dado que é campeão (<span class="math inline">\(Pr(A/B\)</span>); de ganhar do Grêmio, não sendo campeão (<span class="math inline">\(Pr(A/B^{c})\)</span>), e as probabilidades de ser campeão e não ser.</p>
+<p>Segundo o site <a href="https://www.ogol.com.br/xray.php?grp=1&amp;id_comp=0&amp;ond=&amp;epoca_ini=1&amp;epoca_fim=0&amp;equipa_id=2243&amp;equipa_vs_equipa_id=2256&amp;player_detail=" target="_blank" title="Histórico de confrontos entre São Paulo e Grêmio">ogol</a>, especializado em estatísticas sobre futebol, Grêmio e São Paulo já se enfrentaram 67 vezes por campeonatos Brasileiros, com 25 vitórias para o tricolor paulista. Nos anos em que foi campeão, o São Paulo venceu 5 vezes o Grêmio, em 8 confrontos, o que nos dá <span class="math inline">\(Pr(A/B) = 0,63\)</span>. Nos anos em que não foi campeão, o time paulista jogou 59 vezes contra os gaúchos, vencendo 20, ou seja, <span class="math inline">\(Pr(A/B^{c}) = 0,33\)</span>.</p>
+<p>Ainda precisamos das probabilidades do São Paulo ser campeão e não ser. Segundo o conhecido estatístico estadunidense Nate Silver, famoso por prever resultados eleitorais, <a href="https://www.espn.com.br/futebol/artigo/_/id/8188941/brasileirao-como-o-sao-paulo-com-1-de-chance-de-titulo-pode-ainda-ser-campeao#:~:text=Tudo%20em%20um%20s%C3%B3%20lugar.&amp;text=Segundo%20o%20FiveThirtyEight%2C%20site%20parceiro,chance%20de%20t%C3%ADtulo%20no%20Brasileir%C3%A3o" target="_blank" title="Chances do São Paulo ser campeão segundo Nate Silver">em parceria com a <em>ESPN</em></a>, o São Paulo tem hoje 1% de chance de ser campeão. Logo, <span class="math inline">\(Pr(A) = 0,01\)</span> e <span class="math inline">\(Pr(A^{c}) = 0,99\)</span>.</p>
+<p>Voltando a Bayes, sabemos então a probabilidade atual do São Paulo ganhar do Grêmio:</p>
+<p><span class="math display">\[Pr(A) = Pr(A/B)*Pr(B) + Pr(A/B^{c})*Pr(B^{c}) = 0,63*0,01 + 0,33*0,99 = 0,33\]</span></p>
+<p>O São Paulo tem hoje 33% de chance de ganhar do Grêmio. E, com isso, podemos calcular a probabilidade de ser campeão brasileiro, dado que ganhou do Grêmio:</p>
+<p><span class="math display">\[Pr(B/A) = \dfrac{Pr(A/B)*Pr(B)}{Pr(A)} = \dfrac{0,63*0,01}{0,33} = 0,02\]</span></p>
+<p>Por fim, hoje, dado que ganhou do Grêmio, o São Paulo tem 2% de chances de ser campeão do Brasileirão, segundo Bayes. Ou seja, esse Bayes é um baita ANTI…</p>
+
+
+</div>
+<hr>
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
+</div>
