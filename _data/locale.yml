@@ -19,7 +19,7 @@ br: &PT
   FOLLOW_US               : "Siga-nos no [NAME]!"
   EMAIL_ME                : "Enviar um Email"
   EMAIL_US                : "Nos envie um Email."
-  COPYRIGHT_DATES         : "2020"
+  COPYRIGHT_DATES         : "2021"
 
 en: &EN
   SUBSCRIBE               : "Subscribe"
@@ -39,7 +39,7 @@ en: &EN
   FOLLOW_US               : "Follow us on [NAME]!"
   EMAIL_ME                : "Send me an Email"
   EMAIL_US                : "Send us an Email"
-  COPYRIGHT_DATES         : "2020"
+  COPYRIGHT_DATES         : "2021"
 
 es: &ES
   SUBSCRIBE               : "Subscribir"
@@ -59,7 +59,7 @@ es: &ES
   FOLLOW_US               : "Síguenos en [NAME]!"
   EMAIL_ME                : "Envíame un Email"
   EMAIL_US                : "Envianos an Email"
-  COPYRIGHT_DATES         : "2020"
+  COPYRIGHT_DATES         : "2021"
 
 
 
