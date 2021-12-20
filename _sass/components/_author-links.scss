@@ -5,6 +5,9 @@
       .mail-button {
         @include clickable($text-color-1, $mail-color);
       }
+       .instagram-button {
+      @include clickable($text-color-1, $instagram-color);
+      }
       .facebook-button {
         @include clickable($text-color-1, $facebook-color);
       }
