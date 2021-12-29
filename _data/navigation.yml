@@ -34,3 +34,15 @@ titles:
     #    url: /es/sobremi.html
       - title: Contacto
         url: /es/contacto.html
+
+    de:
+      - title: Artikel
+        url: /de/Artikel.html
+      - title: Forschung
+        url: /de/Forschung.html
+      - title: Lebenslauf
+        url: /de/Lebenslauf.html
+    #  - title: Sobre mi
+    #    url: /es/sobremi.html
+      - title: Kontakt
+        url: /de/Kontakt.html

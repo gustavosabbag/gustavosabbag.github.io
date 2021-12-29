@@ -24,11 +24,13 @@ title:
   br: Ciência e Política
   en: Science and Politics
   es: Ciencia y Política
+  de: Wissenschaft und Politik
 
 description:  # this means to ignore newlines until "Language & timezone"
   br: Meu site pessoal de análises e divulgação
   en: My personal site of analysis and dissemination
   es: Mi web personal de análisis y difusión
+  de: Meine persönliche Analyse- und Verbreitungsseite
 
 
 ## => Language and Timezone
@@ -88,6 +90,12 @@ paths:
     home    : /es/ # home layout url, "/" (default)
     archive : /es/articulos.html # "/archive.html" (default)
     rss     : /es/feed.xml # "/feed.xml" (default)
+
+  de:
+    root    : /de/ # title link url, "/" (default)
+    home    : /de/ # home layout url, "/" (default)
+    archive : /de/Artikel.html # "/archive.html" (default)
+    rss     : /de/feed.xml # "/feed.xml" (default)
 
 
 ## => Post
@@ -251,6 +259,11 @@ defaults:
     values:
       lang: es
       base-url: "/es/"
+  - scope:
+      path: de
+    values:
+      lang: de
+      base-url: "/de/"
 
     #Até aqui
 

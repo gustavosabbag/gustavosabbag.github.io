@@ -48,7 +48,7 @@
               <header class="lang-options">
                   <ul>
                   {% for post in posts %}
-                  <header><a href="{{ site.base-url }}{{ post.url }}" class="{{ site.data.languages[post.lang].icon }} title="View in {{post.lang}}">{{ site.data.languages[post.lang].icon  }} </a></header>
+                  <header style="display:inline"><a href="{{ site.base-url }}{{ post.url }}" class="{{ site.data.languages[post.lang].icon }} title="View in {{post.lang}}">{{ site.data.languages[post.lang].icon  }} </a></header>
                   {% endfor %}
                   </ul>
               </header>
